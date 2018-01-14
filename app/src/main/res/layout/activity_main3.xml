@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.foodzone.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:fontFamily="casual"
+        android:text="NON VEG-INSTA FOOD"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:lineSpacingExtra="8sp"
+        android:text="Raw Materials :-"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#0288D1"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <CheckBox
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Chicken"
+        android:textColor="#D32F2F"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/box2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/box1"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Prawns"
+        android:textColor="#F9A825"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/box3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/box2"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Cheese"
+        android:textColor="#18FFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/box4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/box3"
+        android:layout_marginTop="33dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Eggs"
+        android:textColor="#C2185B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/box5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Noodles"
+        android:textColor="#4A148C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/box4"
+        android:layout_alignStart="@+id/box4" />
+
+    <CheckBox
+        android:id="@+id/box6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/box5"
+        android:layout_below="@+id/box5"
+        android:layout_marginTop="22dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Flour"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/box7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/box6"
+        android:layout_below="@+id/box6"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tomato"
+        android:textColor="#00E676"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

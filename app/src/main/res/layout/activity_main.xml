@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.foodzone.MainActivity"
+    android:background="@drawable/ig"
+    >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="214dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@android:drawable/alert_dark_frame"
+        android:backgroundTint="?android:attr/colorBackground"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="INSTA FOOD"
+        android:textAlignment="center"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageButton
+        android:id="@+id/ivNon"
+        android:layout_width="367dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="?attr/colorControlHighlight"
+        app:srcCompat="@drawable/nonveg"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="292dp"
+        android:layout_below="@+id/ivVeg"
+        android:layout_alignStart="@+id/ivVeg" />
+
+    <ImageButton
+        android:id="@+id/ivVeg"
+        android:layout_width="367dp"
+        android:layout_height="203dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="?attr/colorControlHighlight"
+        app:srcCompat="@drawable/veg" />
+</RelativeLayout>

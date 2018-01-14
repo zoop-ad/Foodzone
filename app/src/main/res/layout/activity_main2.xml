@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.ff1.Main2Activity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:fontFamily="casual"
+        android:text="VEG-INSTA FOOD"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:lineSpacingExtra="8sp"
+        android:text="Raw Materials :-"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#0288D1"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <CheckBox
+        android:id="@+id/milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Milk"
+        android:textColor="#D32F2F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"/>
+
+    <CheckBox
+        android:id="@+id/cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Cheese"
+        android:textColor="#F9A825"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/milk"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/bread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Bread"
+        android:textColor="#18FFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"
+        android:layout_below="@+id/flour"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <CheckBox
+        android:id="@+id/flour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Flour"
+        android:textColor="#C2185B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"
+        android:layout_below="@+id/cheese"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <CheckBox
+        android:id="@+id/noodles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Noodles"
+        android:textColor="#4A148C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"
+        android:layout_below="@+id/bread"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <CheckBox
+        android:id="@+id/semolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Semolina"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"
+        android:layout_below="@+id/noodles"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <CheckBox
+        android:id="@+id/tomato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tomato"
+        android:textColor="#00E676"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="selectItem"
+        android:layout_below="@+id/semolina"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:onClick="FinalSelection"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+</RelativeLayout>
